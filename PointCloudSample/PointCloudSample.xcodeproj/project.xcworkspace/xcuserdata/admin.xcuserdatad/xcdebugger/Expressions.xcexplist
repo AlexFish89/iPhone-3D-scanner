@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[MeshView updateGLView:]:MeshView.mm">
+      </ContextState>
+      <ContextState
+         contextName = "Sculpture::getProjection(int&amp;, int&amp;, int&amp;, cv::Mat&amp;, bool):Sculpture.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "result.at&lt;float&gt;(0,0)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "deleteConnectedPart(int*, int, int, int, int, int, int):Sculpture.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "queue[start]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "pointOffSilhouette(cv::Mat&amp;, int, int):Sculpture.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "input[1662960]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Sculpture::plyData() const:Sculpture.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "colors[2]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Sculpture::getColor(int, int, int, unsigned char&amp;, unsigned char&amp;, unsigned char&amp;, unsigned char&amp;) const:Sculpture.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int)r">
+            </PersistentString>
+            <PersistentString
+               value = "(int)g">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Sculpture::trianglesToMesh(std::vector&lt;Triangle, std::allocator&lt;Triangle&gt; &gt;&amp;):Sculpture.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int)a">
+            </PersistentString>
+            <PersistentString
+               value = "(int)b">
+            </PersistentString>
+            <PersistentString
+               value = "(int)g">
+            </PersistentString>
+            <PersistentString
+               value = "(int)r">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Zbuffer::Zbuffer(int, int):Zbuffer.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "buffer.at&lt;Vec4f&gt;(j,i)[3]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TestApp::on_touch_started(double, double):TestApp.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "H">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MeshView displayMesh:]:MeshView.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "*(vertices)+0">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UIImage(conversions) mySegmentation]:UIImage+conversions.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "hsv.at&lt;Vec3i&gt;(i,j)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MeshView getMesh]:MeshView.mm">
+      </ContextState>
+      <ContextState
+         contextName = "Triangle::Triangle(Triangle const&amp;):Triangle.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Sculpture::setColor(int, int, int, unsigned char, unsigned char, unsigned char, unsigned char):Sculpture.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int)r">
+            </PersistentString>
+            <PersistentString
+               value = "(int)b">
+            </PersistentString>
+            <PersistentString
+               value = "(int)g">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[UIImageCVMatConverter cvMatFromUIImage:]:UIImageCVMatConverter.mm">
+      </ContextState>
+      <ContextState
+         contextName = "Vector3D::getX() const:Vector3D.h">
+      </ContextState>
+      <ContextState
+         contextName = "Vector3DEx::operator[](int) const:Vector3DEx.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Mesh::addColor(unsigned char, unsigned char, unsigned char, unsigned char):Mesh.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int)a">
+            </PersistentString>
+            <PersistentString
+               value = "(int)b">
+            </PersistentString>
+            <PersistentString
+               value = "(int)g">
+            </PersistentString>
+            <PersistentString
+               value = "(int)r">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MeshView drawMesh:]:MeshView.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "GLDisplayData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Sculpture::getTriangles(Triangle**):Sculpture.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Zbuffer::addVertex(int, int, cv::Vec&lt;float, 3&gt; const&amp;, cv::Mat const&amp;):Zbuffer.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Vector3D::getZ() const:Vector3D.h">
+      </ContextState>
+      <ContextState
+         contextName = "-[UIImage(conversions) hsvSegmentation]:UIImage+conversions.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "int(*(hsv.data + i * hsv.cols * 3 + j * 3 + 2))">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Sculpture::sculpt(cv::Mat&amp;, cv::Mat&amp;, bool):Sculpture.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(lldb) memory read -t int -c262144 `projX`">
+            </PersistentString>
+            <PersistentString
+               value = "projX[4161]">
+            </PersistentString>
+            <PersistentString
+               value = "x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Sculpture::sculpt(cv::Mat&amp;, cv::Mat&amp;, cv::Mat&amp;, Cube&amp;):Sculpture.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

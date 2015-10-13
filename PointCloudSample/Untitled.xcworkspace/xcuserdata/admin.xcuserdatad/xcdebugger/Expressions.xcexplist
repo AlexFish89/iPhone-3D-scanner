@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[MeshView updateGLView:]:MeshView.mm">
+      </ContextState>
+      <ContextState
+         contextName = "Triangle::Triangle(Triangle const&amp;):Triangle.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Sculpture::getProjection(int&amp;, int&amp;, int&amp;, cv::Mat&amp;, bool):Sculpture.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Sculpture::getTriangles(Triangle**):Sculpture.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Vector3D::getZ() const:Vector3D.h">
+      </ContextState>
+      <ContextState
+         contextName = "-[MeshView getMesh]:MeshView.mm">
+      </ContextState>
+      <ContextState
+         contextName = "-[MeshView displayMesh:]:MeshView.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "*(vertices)+0">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Vector3DEx::operator[](int) const:Vector3DEx.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Vector3D::getX() const:Vector3D.h">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

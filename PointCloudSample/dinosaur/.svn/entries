@@ -1,0 +1,55 @@
+10
+
+dir
+4
+https://subversion.assembla.com/svn/gip-project/_trunk/src/Resources/dinosaur
+https://subversion.assembla.com/svn/gip-project
+
+
+
+2011-12-05T08:05:23.655329Z
+4
+sergeyku4er
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ec70bc9a-b16d-4f7e-b5d0-fe02978e4856
+
+matrices
+dir
+
+
+
+add
+
+slihouettes
+dir
+
+dino_Ps.mat
+file
+0
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+pictures
+dir
+

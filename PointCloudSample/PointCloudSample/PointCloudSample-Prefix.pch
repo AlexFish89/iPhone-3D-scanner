@@ -1,0 +1,19 @@
+//
+// Prefix header for all source files of the 'PointCloudSample' target in the 'PointCloudSample' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __cplusplus
+    #include <opencv2/opencv.hpp>
+#endif
+
+#ifdef __OBJC__
+    #include <opencv2/opencv.hpp>
+	#import <UIKit/UIKit.h>
+	#import <Foundation/Foundation.h>
+#endif

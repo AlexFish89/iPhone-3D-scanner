@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		289FC62E15177EF9003600FD /* image_target_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 289FC62C15177EF9003600FD /* image_target_1.jpg */; };
+		289FC62F15177EF9003600FD /* image_target_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 289FC62D15177EF9003600FD /* image_target_2.jpg */; };
+		289FC63A15177F38003600FD /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 289FC63015177F38003600FD /* Default-Landscape@2x~ipad.png */; };
+		289FC63B15177F38003600FD /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 289FC63115177F38003600FD /* Default-Landscape~ipad.png */; };
+		289FC63C15177F38003600FD /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 289FC63215177F38003600FD /* Default-Portrait@2x~ipad.png */; };
+		289FC63D15177F38003600FD /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 289FC63315177F38003600FD /* Default-Portrait~ipad.png */; };
+		289FC63E15177F38003600FD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 289FC63415177F38003600FD /* Default.png */; };
+		289FC63F15177F38003600FD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 289FC63515177F38003600FD /* Default@2x.png */; };
+		289FC64015177F38003600FD /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 289FC63615177F38003600FD /* Icon-iPad.png */; };
+		289FC64115177F38003600FD /* Icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 289FC63715177F38003600FD /* Icon-iPad@2x.png */; };
+		289FC64215177F38003600FD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 289FC63815177F38003600FD /* Icon.png */; };
+		289FC64315177F38003600FD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 289FC63915177F38003600FD /* Icon@2x.png */; };
+		6F35CE06151691FD0094A236 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F35CE05151691FD0094A236 /* UIKit.framework */; };
+		6F35CE08151691FD0094A236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F35CE07151691FD0094A236 /* Foundation.framework */; };
+		6F35CE0A151691FD0094A236 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F35CE09151691FD0094A236 /* CoreGraphics.framework */; };
+		6F35CE10151691FD0094A236 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F35CE0E151691FD0094A236 /* InfoPlist.strings */; };
+		6F35CE12151691FD0094A236 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F35CE11151691FD0094A236 /* main.mm */; };
+		6F35CE1D151693100094A236 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F35CE1C151693100094A236 /* AppDelegate.mm */; };
+		6F35CE26151693DC0094A236 /* HardwareController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6F35CE1F151693DC0094A236 /* HardwareController.mm */; };
+		6F35CE27151693DC0094A236 /* PointCloudApplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F35CE20151693DC0094A236 /* PointCloudApplication.cpp */; };
+		6F35CE28151693DC0094A236 /* TestApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F35CE22151693DC0094A236 /* TestApp.cpp */; };
+		6F35CE29151693DC0094A236 /* TextureUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F35CE24151693DC0094A236 /* TextureUtilities.cpp */; };
+		6F35CE2C151694500094A236 /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F35CE2B151694500094A236 /* GLView.m */; };
+		6F35CE30151696A80094A236 /* libpointcloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F35CE2E151696A80094A236 /* libpointcloud.a */; };
+		6F35CE32151697310094A236 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F35CE31151697310094A236 /* OpenGLES.framework */; };
+		6F35CE34151697410094A236 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F35CE33151697410094A236 /* AVFoundation.framework */; };
+		6F35CE36151697570094A236 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F35CE35151697570094A236 /* CoreVideo.framework */; };
+		6F35CE3A1516977A0094A236 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F35CE391516977A0094A236 /* CoreMedia.framework */; };
+		6F35CE3C151697A40094A236 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F35CE3B151697A40094A236 /* QuartzCore.framework */; };
+		6F35CE3E151697B70094A236 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F35CE3D151697B70094A236 /* CoreMotion.framework */; };
+		6F35CE4B1516A9C10094A236 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F35CE4A1516A9C10094A236 /* Accelerate.framework */; };
+		6F35CE5C1516AA610094A236 /* image_target_1.model in Resources */ = {isa = PBXBuildFile; fileRef = 6F35CE571516AA610094A236 /* image_target_1.model */; };
+		6F35CE5D1516AA610094A236 /* image_target_2.model in Resources */ = {isa = PBXBuildFile; fileRef = 6F35CE581516AA610094A236 /* image_target_2.model */; };
+		6F35CE5E1516AA610094A236 /* pointcloud-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F35CE591516AA610094A236 /* pointcloud-logo.png */; };
+		6F35CE5F1516AA610094A236 /* trackpoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F35CE5A1516AA610094A236 /* trackpoint.png */; };
+		846BEF3F170C9EED00541B07 /* pictures in Resources */ = {isa = PBXBuildFile; fileRef = 846BEF3D170C9EED00541B07 /* pictures */; };
+		84A618AC1B55C29700466A1F /* Zbuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A618AA1B55C29500466A1F /* Zbuffer.cpp */; };
+		84A618B21B590CB000466A1F /* ImageData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84A618B01B590CAE00466A1F /* ImageData.cpp */; };
+		84A9DD4D15E81A14009E2E00 /* UIImage+conversions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84A9DD4C15E81A14009E2E00 /* UIImage+conversions.mm */; };
+		84AEA3261B3AD19400B01F93 /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84AEA3241B3AD19300B01F93 /* Cube.cpp */; };
+		84AF8BC115FDF5D800EECE85 /* MarchingCubes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84AF8BB715FDF5D800EECE85 /* MarchingCubes.cpp */; };
+		84AF8BC215FDF5D800EECE85 /* Sculpture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84AF8BB915FDF5D800EECE85 /* Sculpture.cpp */; };
+		84AF8BC315FDF5D800EECE85 /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84AF8BBB15FDF5D800EECE85 /* Triangle.cpp */; };
+		84AF8BC415FDF5D800EECE85 /* Vector3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84AF8BBD15FDF5D800EECE85 /* Vector3D.cpp */; };
+		84AF8BC515FDF5D800EECE85 /* Vector3DEx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84AF8BBF15FDF5D800EECE85 /* Vector3DEx.cpp */; };
+		84B09FA815F8DD3500B84AE6 /* HSImageSidebarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B09FA615F8DD3500B84AE6 /* HSImageSidebarView.m */; };
+		84B50A8B15E54FE500E36DF8 /* MeshView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84B50A8915E54FE500E36DF8 /* MeshView.mm */; };
+		84B50A8C15E54FE500E36DF8 /* MeshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B50A8A15E54FE500E36DF8 /* MeshView.xib */; };
+		84CBD6971651376F00E0AEAC /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84CBD6951651376E00E0AEAC /* Mesh.cpp */; };
+		84CBD69B1651679500E0AEAC /* UIView+buttons.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBD69A1651679500E0AEAC /* UIView+buttons.m */; };
+		84D17FC01730185A00395291 /* matrices in Resources */ = {isa = PBXBuildFile; fileRef = 84D17FBF1730185A00395291 /* matrices */; };
+		84D17FC41730218900395291 /* silhouettes in Resources */ = {isa = PBXBuildFile; fileRef = 84D17FC31730218900395291 /* silhouettes */; };
+		84D4399915FB528A005B5D7B /* UIImageCVMatConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84D4399815FB528A005B5D7B /* UIImageCVMatConverter.mm */; };
+		84D4399D15FB629B005B5D7B /* WatershedSegmenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84D4399B15FB629B005B5D7B /* WatershedSegmenter.cpp */; };
+		84ED78DE161DCDE5001DD441 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84ED78DD161DCDE5001DD441 /* Default-568h@2x.png */; };
+		C7048EF61520787C008D6A61 /* ui.png in Resources */ = {isa = PBXBuildFile; fileRef = C7048EF51520787C008D6A61 /* ui.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		289FC62C15177EF9003600FD /* image_target_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_target_1.jpg; sourceTree = "<group>"; };
+		289FC62D15177EF9003600FD /* image_target_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_target_2.jpg; sourceTree = "<group>"; };
+		289FC63015177F38003600FD /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		289FC63115177F38003600FD /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		289FC63215177F38003600FD /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		289FC63315177F38003600FD /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		289FC63415177F38003600FD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		289FC63515177F38003600FD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		289FC63615177F38003600FD /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = "<group>"; };
+		289FC63715177F38003600FD /* Icon-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad@2x.png"; sourceTree = "<group>"; };
+		289FC63815177F38003600FD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		289FC63915177F38003600FD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		289FC67B1517860D003600FD /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		289FC67C1517862B003600FD /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6F35CE01151691FD0094A236 /* PointCloudSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointCloudSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F35CE05151691FD0094A236 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F35CE07151691FD0094A236 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F35CE09151691FD0094A236 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F35CE0D151691FD0094A236 /* PointCloudSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PointCloudSample-Info.plist"; sourceTree = "<group>"; };
+		6F35CE0F151691FD0094A236 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F35CE11151691FD0094A236 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		6F35CE13151691FD0094A236 /* PointCloudSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PointCloudSample-Prefix.pch"; sourceTree = "<group>"; };
+		6F35CE14151691FD0094A236 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F35CE1C151693100094A236 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		6F35CE1E151693DC0094A236 /* HardwareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardwareController.h; sourceTree = "<group>"; };
+		6F35CE1F151693DC0094A236 /* HardwareController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HardwareController.mm; sourceTree = "<group>"; };
+		6F35CE20151693DC0094A236 /* PointCloudApplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointCloudApplication.cpp; sourceTree = "<group>"; };
+		6F35CE21151693DC0094A236 /* PointCloudApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointCloudApplication.h; sourceTree = "<group>"; };
+		6F35CE22151693DC0094A236 /* TestApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestApp.cpp; sourceTree = "<group>"; };
+		6F35CE23151693DC0094A236 /* TestApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestApp.h; sourceTree = "<group>"; };
+		6F35CE24151693DC0094A236 /* TextureUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureUtilities.cpp; sourceTree = "<group>"; };
+		6F35CE25151693DC0094A236 /* TextureUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureUtilities.h; sourceTree = "<group>"; };
+		6F35CE2A151694500094A236 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		6F35CE2B151694500094A236 /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLView.m; sourceTree = "<group>"; };
+		6F35CE2E151696A80094A236 /* libpointcloud.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpointcloud.a; path = ../../libpointcloud.a; sourceTree = "<group>"; };
+		6F35CE2F151696A80094A236 /* PointCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PointCloud.h; path = ../../PointCloud.h; sourceTree = "<group>"; };
+		6F35CE31151697310094A236 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6F35CE33151697410094A236 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6F35CE35151697570094A236 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6F35CE37151697630094A236 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		6F35CE391516977A0094A236 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6F35CE3B151697A40094A236 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6F35CE3D151697B70094A236 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		6F35CE4A1516A9C10094A236 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		6F35CE571516AA610094A236 /* image_target_1.model */ = {isa = PBXFileReference; lastKnownFileType = file; path = image_target_1.model; sourceTree = "<group>"; };
+		6F35CE581516AA610094A236 /* image_target_2.model */ = {isa = PBXFileReference; lastKnownFileType = file; path = image_target_2.model; sourceTree = "<group>"; };
+		6F35CE591516AA610094A236 /* pointcloud-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pointcloud-logo.png"; sourceTree = "<group>"; };
+		6F35CE5A1516AA610094A236 /* trackpoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackpoint.png; sourceTree = "<group>"; };
+		846BEF3D170C9EED00541B07 /* pictures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = pictures; path = dinosaur/pictures; sourceTree = "<group>"; };
+		84A618AA1B55C29500466A1F /* Zbuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Zbuffer.cpp; sourceTree = "<group>"; };
+		84A618AB1B55C29700466A1F /* Zbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zbuffer.h; sourceTree = "<group>"; };
+		84A618B01B590CAE00466A1F /* ImageData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageData.cpp; sourceTree = "<group>"; };
+		84A618B11B590CAF00466A1F /* ImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageData.h; sourceTree = "<group>"; };
+		84A9DD4B15E81A13009E2E00 /* UIImage+conversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+conversions.h"; sourceTree = "<group>"; };
+		84A9DD4C15E81A14009E2E00 /* UIImage+conversions.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+conversions.mm"; sourceTree = "<group>"; };
+		84AEA3241B3AD19300B01F93 /* Cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cube.cpp; sourceTree = "<group>"; };
+		84AEA3251B3AD19300B01F93 /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		84AF8BB715FDF5D800EECE85 /* MarchingCubes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MarchingCubes.cpp; path = Sculptor/MarchingCubes.cpp; sourceTree = "<group>"; };
+		84AF8BB815FDF5D800EECE85 /* MarchingCubes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarchingCubes.h; path = Sculptor/MarchingCubes.h; sourceTree = "<group>"; };
+		84AF8BB915FDF5D800EECE85 /* Sculpture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sculpture.cpp; path = Sculptor/Sculpture.cpp; sourceTree = "<group>"; };
+		84AF8BBA15FDF5D800EECE85 /* Sculpture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sculpture.h; path = Sculptor/Sculpture.h; sourceTree = "<group>"; };
+		84AF8BBB15FDF5D800EECE85 /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Triangle.cpp; path = Sculptor/Triangle.cpp; sourceTree = "<group>"; };
+		84AF8BBC15FDF5D800EECE85 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Triangle.h; path = Sculptor/Triangle.h; sourceTree = "<group>"; };
+		84AF8BBD15FDF5D800EECE85 /* Vector3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector3D.cpp; path = Sculptor/Vector3D.cpp; sourceTree = "<group>"; };
+		84AF8BBE15FDF5D800EECE85 /* Vector3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector3D.h; path = Sculptor/Vector3D.h; sourceTree = "<group>"; };
+		84AF8BBF15FDF5D800EECE85 /* Vector3DEx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector3DEx.cpp; path = Sculptor/Vector3DEx.cpp; sourceTree = "<group>"; };
+		84AF8BC015FDF5D800EECE85 /* Vector3DEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector3DEx.h; path = Sculptor/Vector3DEx.h; sourceTree = "<group>"; };
+		84B09FA515F8DD3500B84AE6 /* HSImageSidebarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSImageSidebarView.h; path = Sidebar/HSImageSidebarView.h; sourceTree = "<group>"; };
+		84B09FA615F8DD3500B84AE6 /* HSImageSidebarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HSImageSidebarView.m; path = Sidebar/HSImageSidebarView.m; sourceTree = "<group>"; };
+		84B09FA715F8DD3500B84AE6 /* HSImageSidebarViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HSImageSidebarViewDelegate.h; path = Sidebar/HSImageSidebarViewDelegate.h; sourceTree = "<group>"; };
+		84B50A8815E54FE500E36DF8 /* MeshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeshView.h; path = MeshView/MeshView.h; sourceTree = "<group>"; };
+		84B50A8915E54FE500E36DF8 /* MeshView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MeshView.mm; path = MeshView/MeshView.mm; sourceTree = "<group>"; };
+		84B50A8A15E54FE500E36DF8 /* MeshView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MeshView.xib; path = MeshView/MeshView.xib; sourceTree = "<group>"; };
+		84CBD6951651376E00E0AEAC /* Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
+		84CBD6961651376E00E0AEAC /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		84CBD6991651679500E0AEAC /* UIView+buttons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+buttons.h"; sourceTree = "<group>"; };
+		84CBD69A1651679500E0AEAC /* UIView+buttons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+buttons.m"; sourceTree = "<group>"; };
+		84D17FBF1730185A00395291 /* matrices */ = {isa = PBXFileReference; lastKnownFileType = folder; name = matrices; path = dinosaur/matrices; sourceTree = "<group>"; };
+		84D17FC31730218900395291 /* silhouettes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = silhouettes; path = dinosaur/silhouettes; sourceTree = "<group>"; };
+		84D4399715FB528A005B5D7B /* UIImageCVMatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageCVMatConverter.h; sourceTree = "<group>"; };
+		84D4399815FB528A005B5D7B /* UIImageCVMatConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIImageCVMatConverter.mm; sourceTree = "<group>"; };
+		84D4399B15FB629B005B5D7B /* WatershedSegmenter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WatershedSegmenter.cpp; sourceTree = "<group>"; };
+		84D4399C15FB629B005B5D7B /* WatershedSegmenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatershedSegmenter.h; sourceTree = "<group>"; };
+		84D59AFE1A0018C4003A4F6C /* matricesData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = matricesData.h; path = dinosaur/matrices/matricesData.h; sourceTree = "<group>"; };
+		84ED78DD161DCDE5001DD441 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C7048EF51520787C008D6A61 /* ui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ui.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F35CDFE151691FD0094A236 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F35CE4B1516A9C10094A236 /* Accelerate.framework in Frameworks */,
+				6F35CE3E151697B70094A236 /* CoreMotion.framework in Frameworks */,
+				6F35CE3C151697A40094A236 /* QuartzCore.framework in Frameworks */,
+				6F35CE3A1516977A0094A236 /* CoreMedia.framework in Frameworks */,
+				6F35CE36151697570094A236 /* CoreVideo.framework in Frameworks */,
+				6F35CE34151697410094A236 /* AVFoundation.framework in Frameworks */,
+				6F35CE32151697310094A236 /* OpenGLES.framework in Frameworks */,
+				6F35CE06151691FD0094A236 /* UIKit.framework in Frameworks */,
+				6F35CE08151691FD0094A236 /* Foundation.framework in Frameworks */,
+				6F35CE0A151691FD0094A236 /* CoreGraphics.framework in Frameworks */,
+				6F35CE30151696A80094A236 /* libpointcloud.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		289FC64415177F46003600FD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6F35CE591516AA610094A236 /* pointcloud-logo.png */,
+				C7048EF51520787C008D6A61 /* ui.png */,
+				6F35CE5A1516AA610094A236 /* trackpoint.png */,
+				289FC63015177F38003600FD /* Default-Landscape@2x~ipad.png */,
+				289FC63115177F38003600FD /* Default-Landscape~ipad.png */,
+				289FC63215177F38003600FD /* Default-Portrait@2x~ipad.png */,
+				289FC63315177F38003600FD /* Default-Portrait~ipad.png */,
+				289FC63415177F38003600FD /* Default.png */,
+				289FC63515177F38003600FD /* Default@2x.png */,
+				289FC63615177F38003600FD /* Icon-iPad.png */,
+				289FC63715177F38003600FD /* Icon-iPad@2x.png */,
+				289FC63815177F38003600FD /* Icon.png */,
+				289FC63915177F38003600FD /* Icon@2x.png */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		289FC64515177F64003600FD /* Image Targets */ = {
+			isa = PBXGroup;
+			children = (
+				289FC62C15177EF9003600FD /* image_target_1.jpg */,
+				289FC62D15177EF9003600FD /* image_target_2.jpg */,
+				6F35CE571516AA610094A236 /* image_target_1.model */,
+				6F35CE581516AA610094A236 /* image_target_2.model */,
+			);
+			name = "Image Targets";
+			sourceTree = "<group>";
+		};
+		6F35CDF6151691FD0094A236 = {
+			isa = PBXGroup;
+			children = (
+				84ED78DD161DCDE5001DD441 /* Default-568h@2x.png */,
+				289FC67B1517860D003600FD /* README */,
+				289FC67C1517862B003600FD /* LICENSE */,
+				6F35CE4C1516AA390094A236 /* Resources */,
+				6F35CE2D151696940094A236 /* PointCloudSDK */,
+				6F35CE0B151691FD0094A236 /* PointCloudSample */,
+				846BEF37170C9C3C00541B07 /* Dinosaur */,
+				6F35CE04151691FD0094A236 /* Frameworks */,
+				6F35CE02151691FD0094A236 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F35CE02151691FD0094A236 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F35CE01151691FD0094A236 /* PointCloudSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F35CE04151691FD0094A236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F35CE4A1516A9C10094A236 /* Accelerate.framework */,
+				6F35CE3D151697B70094A236 /* CoreMotion.framework */,
+				6F35CE3B151697A40094A236 /* QuartzCore.framework */,
+				6F35CE391516977A0094A236 /* CoreMedia.framework */,
+				6F35CE37151697630094A236 /* CoreAudio.framework */,
+				6F35CE35151697570094A236 /* CoreVideo.framework */,
+				6F35CE33151697410094A236 /* AVFoundation.framework */,
+				6F35CE31151697310094A236 /* OpenGLES.framework */,
+				6F35CE05151691FD0094A236 /* UIKit.framework */,
+				6F35CE07151691FD0094A236 /* Foundation.framework */,
+				6F35CE09151691FD0094A236 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F35CE0B151691FD0094A236 /* PointCloudSample */ = {
+			isa = PBXGroup;
+			children = (
+				6F35CE2A151694500094A236 /* GLView.h */,
+				6F35CE2B151694500094A236 /* GLView.m */,
+				6F35CE1E151693DC0094A236 /* HardwareController.h */,
+				6F35CE1F151693DC0094A236 /* HardwareController.mm */,
+				6F35CE20151693DC0094A236 /* PointCloudApplication.cpp */,
+				6F35CE21151693DC0094A236 /* PointCloudApplication.h */,
+				6F35CE22151693DC0094A236 /* TestApp.cpp */,
+				6F35CE23151693DC0094A236 /* TestApp.h */,
+				84AEA3241B3AD19300B01F93 /* Cube.cpp */,
+				84AEA3251B3AD19300B01F93 /* Cube.h */,
+				6F35CE24151693DC0094A236 /* TextureUtilities.cpp */,
+				6F35CE25151693DC0094A236 /* TextureUtilities.h */,
+				6F35CE14151691FD0094A236 /* AppDelegate.h */,
+				6F35CE1C151693100094A236 /* AppDelegate.mm */,
+				84D4399815FB528A005B5D7B /* UIImageCVMatConverter.mm */,
+				84D4399715FB528A005B5D7B /* UIImageCVMatConverter.h */,
+				84D4399B15FB629B005B5D7B /* WatershedSegmenter.cpp */,
+				84D4399C15FB629B005B5D7B /* WatershedSegmenter.h */,
+				84AF8BB515FDF5C300EECE85 /* Sculptor */,
+				84B09FA915F8DD3E00B84AE6 /* Sidebar */,
+				84B50A8D15E54FEB00E36DF8 /* MeshView */,
+				6F35CE0C151691FD0094A236 /* Supporting Files */,
+				84A9DD5415E84DC5009E2E00 /* categories */,
+			);
+			path = PointCloudSample;
+			sourceTree = "<group>";
+		};
+		6F35CE0C151691FD0094A236 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F35CE0D151691FD0094A236 /* PointCloudSample-Info.plist */,
+				6F35CE0E151691FD0094A236 /* InfoPlist.strings */,
+				6F35CE11151691FD0094A236 /* main.mm */,
+				6F35CE13151691FD0094A236 /* PointCloudSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F35CE2D151696940094A236 /* PointCloudSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6F35CE2E151696A80094A236 /* libpointcloud.a */,
+				6F35CE2F151696A80094A236 /* PointCloud.h */,
+			);
+			name = PointCloudSDK;
+			path = PointCloudSample;
+			sourceTree = "<group>";
+		};
+		6F35CE4C1516AA390094A236 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				289FC64515177F64003600FD /* Image Targets */,
+				289FC64415177F46003600FD /* UI */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		846BEF37170C9C3C00541B07 /* Dinosaur */ = {
+			isa = PBXGroup;
+			children = (
+				84D59AFE1A0018C4003A4F6C /* matricesData.h */,
+				84D17FC31730218900395291 /* silhouettes */,
+				84D17FBF1730185A00395291 /* matrices */,
+				846BEF3D170C9EED00541B07 /* pictures */,
+			);
+			name = Dinosaur;
+			sourceTree = "<group>";
+		};
+		84A9DD5415E84DC5009E2E00 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				84A9DD4B15E81A13009E2E00 /* UIImage+conversions.h */,
+				84A9DD4C15E81A14009E2E00 /* UIImage+conversions.mm */,
+				84CBD6991651679500E0AEAC /* UIView+buttons.h */,
+				84CBD69A1651679500E0AEAC /* UIView+buttons.m */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		84AF8BB515FDF5C300EECE85 /* Sculptor */ = {
+			isa = PBXGroup;
+			children = (
+				84AF8BB715FDF5D800EECE85 /* MarchingCubes.cpp */,
+				84AF8BB815FDF5D800EECE85 /* MarchingCubes.h */,
+				84AF8BB915FDF5D800EECE85 /* Sculpture.cpp */,
+				84AF8BBA15FDF5D800EECE85 /* Sculpture.h */,
+				84AF8BBB15FDF5D800EECE85 /* Triangle.cpp */,
+				84AF8BBC15FDF5D800EECE85 /* Triangle.h */,
+				84AF8BBD15FDF5D800EECE85 /* Vector3D.cpp */,
+				84AF8BBE15FDF5D800EECE85 /* Vector3D.h */,
+				84AF8BBF15FDF5D800EECE85 /* Vector3DEx.cpp */,
+				84AF8BC015FDF5D800EECE85 /* Vector3DEx.h */,
+				84CBD6951651376E00E0AEAC /* Mesh.cpp */,
+				84CBD6961651376E00E0AEAC /* Mesh.h */,
+				84A618AA1B55C29500466A1F /* Zbuffer.cpp */,
+				84A618AB1B55C29700466A1F /* Zbuffer.h */,
+				84A618B01B590CAE00466A1F /* ImageData.cpp */,
+				84A618B11B590CAF00466A1F /* ImageData.h */,
+			);
+			name = Sculptor;
+			sourceTree = "<group>";
+		};
+		84B09FA915F8DD3E00B84AE6 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				84B09FA515F8DD3500B84AE6 /* HSImageSidebarView.h */,
+				84B09FA615F8DD3500B84AE6 /* HSImageSidebarView.m */,
+				84B09FA715F8DD3500B84AE6 /* HSImageSidebarViewDelegate.h */,
+			);
+			name = Sidebar;
+			sourceTree = "<group>";
+		};
+		84B50A8D15E54FEB00E36DF8 /* MeshView */ = {
+			isa = PBXGroup;
+			children = (
+				84B50A8815E54FE500E36DF8 /* MeshView.h */,
+				84B50A8915E54FE500E36DF8 /* MeshView.mm */,
+				84B50A8A15E54FE500E36DF8 /* MeshView.xib */,
+			);
+			name = MeshView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F35CE00151691FD0094A236 /* PointCloudSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F35CE19151691FD0094A236 /* Build configuration list for PBXNativeTarget "PointCloudSample" */;
+			buildPhases = (
+				6F35CDFD151691FD0094A236 /* Sources */,
+				6F35CDFE151691FD0094A236 /* Frameworks */,
+				6F35CDFF151691FD0094A236 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PointCloudSample;
+			productName = PointCloudSample;
+			productReference = 6F35CE01151691FD0094A236 /* PointCloudSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F35CDF8151691FD0094A236 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "13th Lab AB";
+			};
+			buildConfigurationList = 6F35CDFB151691FD0094A236 /* Build configuration list for PBXProject "PointCloudSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F35CDF6151691FD0094A236;
+			productRefGroup = 6F35CE02151691FD0094A236 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F35CE00151691FD0094A236 /* PointCloudSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F35CDFF151691FD0094A236 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F35CE10151691FD0094A236 /* InfoPlist.strings in Resources */,
+				6F35CE5C1516AA610094A236 /* image_target_1.model in Resources */,
+				6F35CE5D1516AA610094A236 /* image_target_2.model in Resources */,
+				6F35CE5E1516AA610094A236 /* pointcloud-logo.png in Resources */,
+				6F35CE5F1516AA610094A236 /* trackpoint.png in Resources */,
+				289FC62E15177EF9003600FD /* image_target_1.jpg in Resources */,
+				289FC62F15177EF9003600FD /* image_target_2.jpg in Resources */,
+				289FC63A15177F38003600FD /* Default-Landscape@2x~ipad.png in Resources */,
+				289FC63B15177F38003600FD /* Default-Landscape~ipad.png in Resources */,
+				289FC63C15177F38003600FD /* Default-Portrait@2x~ipad.png in Resources */,
+				289FC63D15177F38003600FD /* Default-Portrait~ipad.png in Resources */,
+				289FC63E15177F38003600FD /* Default.png in Resources */,
+				289FC63F15177F38003600FD /* Default@2x.png in Resources */,
+				289FC64015177F38003600FD /* Icon-iPad.png in Resources */,
+				289FC64115177F38003600FD /* Icon-iPad@2x.png in Resources */,
+				289FC64215177F38003600FD /* Icon.png in Resources */,
+				289FC64315177F38003600FD /* Icon@2x.png in Resources */,
+				C7048EF61520787C008D6A61 /* ui.png in Resources */,
+				84B50A8C15E54FE500E36DF8 /* MeshView.xib in Resources */,
+				84ED78DE161DCDE5001DD441 /* Default-568h@2x.png in Resources */,
+				846BEF3F170C9EED00541B07 /* pictures in Resources */,
+				84D17FC01730185A00395291 /* matrices in Resources */,
+				84D17FC41730218900395291 /* silhouettes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F35CDFD151691FD0094A236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F35CE12151691FD0094A236 /* main.mm in Sources */,
+				6F35CE1D151693100094A236 /* AppDelegate.mm in Sources */,
+				6F35CE26151693DC0094A236 /* HardwareController.mm in Sources */,
+				6F35CE27151693DC0094A236 /* PointCloudApplication.cpp in Sources */,
+				6F35CE28151693DC0094A236 /* TestApp.cpp in Sources */,
+				6F35CE29151693DC0094A236 /* TextureUtilities.cpp in Sources */,
+				6F35CE2C151694500094A236 /* GLView.m in Sources */,
+				84B50A8B15E54FE500E36DF8 /* MeshView.mm in Sources */,
+				84A9DD4D15E81A14009E2E00 /* UIImage+conversions.mm in Sources */,
+				84B09FA815F8DD3500B84AE6 /* HSImageSidebarView.m in Sources */,
+				84D4399915FB528A005B5D7B /* UIImageCVMatConverter.mm in Sources */,
+				84D4399D15FB629B005B5D7B /* WatershedSegmenter.cpp in Sources */,
+				84AF8BC115FDF5D800EECE85 /* MarchingCubes.cpp in Sources */,
+				84AF8BC215FDF5D800EECE85 /* Sculpture.cpp in Sources */,
+				84AF8BC315FDF5D800EECE85 /* Triangle.cpp in Sources */,
+				84AF8BC415FDF5D800EECE85 /* Vector3D.cpp in Sources */,
+				84AF8BC515FDF5D800EECE85 /* Vector3DEx.cpp in Sources */,
+				84CBD6971651376F00E0AEAC /* Mesh.cpp in Sources */,
+				84CBD69B1651679500E0AEAC /* UIView+buttons.m in Sources */,
+				84AEA3261B3AD19400B01F93 /* Cube.cpp in Sources */,
+				84A618AC1B55C29700466A1F /* Zbuffer.cpp in Sources */,
+				84A618B21B590CB000466A1F /* ImageData.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F35CE0E151691FD0094A236 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F35CE0F151691FD0094A236 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F35CE17151691FD0094A236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "opencv-2.4-build/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F35CE18151691FD0094A236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "opencv-2.4-build/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F35CE1A151691FD0094A236 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PointCloudSample\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PointCloudSample/PointCloudSample-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/PointCloudSample/opencv/include/**";
+				INFOPLIST_FILE = "PointCloudSample/PointCloudSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A\"",
+					"\"$(SRCROOT)/PointCloudSample/opencv/lib/Debug\"/**",
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_imgproc",
+					"-lopencv_legacy",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_video",
+					"-lzlib",
+					"-lopencv_highgui",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F35CE1B151691FD0094A236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PointCloudSample\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PointCloudSample/PointCloudSample-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/PointCloudSample/opencv/include/**";
+				INFOPLIST_FILE = "PointCloudSample/PointCloudSample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SYSTEM_LIBRARY_DIR)/Frameworks/ApplicationServices.framework/Versions/A\"",
+					"\"$(SRCROOT)/PointCloudSample/opencv/lib/Release\"/**",
+				);
+				OTHER_LDFLAGS = (
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_imgproc",
+					"-lopencv_legacy",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_video",
+					"-lzlib",
+					"-lopencv_highgui",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F35CDFB151691FD0094A236 /* Build configuration list for PBXProject "PointCloudSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F35CE17151691FD0094A236 /* Debug */,
+				6F35CE18151691FD0094A236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F35CE19151691FD0094A236 /* Build configuration list for PBXNativeTarget "PointCloudSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F35CE1A151691FD0094A236 /* Debug */,
+				6F35CE1B151691FD0094A236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F35CDF8151691FD0094A236 /* Project object */;
+}

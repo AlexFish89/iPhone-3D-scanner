@@ -1,0 +1,17 @@
+BRANDING GUIDELINES FOR POINTCLOUD SDK
+
+For the free version of PointCloud SDK, please make sure that the following requirements are met before submitting an app to AppStore:
+
+- The "Powered by PointCloud logo" must be clearly visible in possible splash screens. It must not be resized, but displayed in native resolution on both iPhone 4s and iPad 2.
+
+- The "Powered by PointCloud logo" must always be displayed in the visible camera feed. It must not be resized, but displayed in native resolution on both iPhone 4s and iPad 2.
+
+- It must not be hidden by permanent UI elements. It is, however, accepted that occasional UI elements may partly cover the logotype at times, for instance when opening a menu.
+
+- The logotype must be visible on top of any 3D content rendered on top of the camera feed.
+
+- The text "Computer vision technology for this application is provided by 13th Lab's PointCloud SDK" must be displayed in possible About sections within the application.
+
+- The text "Computer vision technology for this application is provided by 13th Lab's PointCloud SDK" must be included in the App's description in the AppStore.
+
+- The logotype (24 bit PNG, 262x54px) can be found here together with this file and also at http://developer.pointcloud.io/images/powered_by_pointcloud.png

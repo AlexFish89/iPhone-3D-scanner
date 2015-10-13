@@ -1,0 +1,60 @@
+libpointcloud v 1.2.0 for iOS
+
+Copyright 2012 13th Lab AB
+
+README
+
+This is the PointCloud SDK for iOS.
+Read more at http://developer.pointcloud.io/sdk
+
+AUTHORS
+
+13th Lab AB
+
+APPLICATION KEYS
+
+To be able to use libpointcloud in your applications, you'll need to request an application key. 
+You can do this at http://developer.pointcloud.io/sdk/applicationkeys
+
+DOCUMENTATION
+
+You can find documentation here: http://developer.pointcloud.io/sdk/docs
+
+EXAMPLES
+
+An example how to use PointCloud SDK is provided in the SDK download.
+You'll find the example under PointCloudSample. This is an XCode project which you can compile and run.
+It demonstrates of to use PointCloud SDK to create and track a 3D map (SLAM) and how to detect and track image targets,
+and also how to create an expanding SLAM map from a detected image target.
+The SLAM map size is limited in the free version of the SDK. This limitation may be raised in the future.
+For more info on the sample project, take a look at the README file at PointCloudSample/README.
+
+LICENSE
+
+You should have received separate LICENSE and BRANDING-GUIDELINES files together with this README.
+
+RELEASE NOTES
+
+1.2.0
+
+- Added ability to enable/disable SLAM map expansion. This means you can stop (or pause) the expansion, or create a SLAM map from a detected image target. 
+pointcloud_enable_map_expansion() allows SLAM maps to be built starting from the detection of a planar image target. The planar image target will define a scale and orientation reference for the coordinate system, as specified with the physical_width or physical_height parameter of the image target.
+pointcloud_disable_map_expansion() allows you to stop the SLAM map from expanding.
+
+- To simplify the extraction of camera pose data, pointcloud_get_camera_pose() now returns the inverse of what it used to do. The OpenGL ES 1.1 compatible model view matrix is now returned by pointcloud_get_camera_matrix(). The PointCloudSample has been updated to reflect this change.
+
+- pointcloud_camera_model_project() and pointcloud_camera_model_unproject() have been renamed pointcloud_camera_to_video() and pointcloud_video_to_camera() respectively to give all coordinate transform utility functions consistent naming.
+
+- pointcloud_camera_to_map() and pointcloud_map_to_camera() are two new coordinate transform functions that transform coordinates relative to the current camera position to global map coordinates and vice versa.
+
+1.1.0
+
+- Change data types from doubles to floats to improve compatibility with OpenGL ES
+
+- Added API to compute OpenGL view frustum matching the device camera
+
+- Added example project to SDK download
+
+1.0.0
+
+- Initial release
