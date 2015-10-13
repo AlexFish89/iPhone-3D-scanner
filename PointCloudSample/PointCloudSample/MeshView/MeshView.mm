@@ -400,7 +400,7 @@ bool silhouetteAlertAnswered = NO;
     redraw = YES;    
 }
 
-#define OBJ_TEST
+//#define OBJ_TEST
 //#define PLY_TEST
 
 - (IBAction)getMesh {
