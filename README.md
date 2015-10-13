@@ -26,6 +26,7 @@ As you are done with the image head to the Mesh screen by touching the "Mesh" bu
 5. Displaying the mesh representing the surface of the current volume
 
 Mesh control:
+
 1. Pinch for scaling
 2. One finger pan for rotation
 3. Two fingers pan for translation in the screen plane
