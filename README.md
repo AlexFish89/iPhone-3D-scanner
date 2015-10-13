@@ -10,6 +10,7 @@ Installation instructions:
 
 Usage instructions:
 After application loads follow the on screen instruction i.e. touch the screen to begin slam process. After enough feature points found a blue cube and axes will appear on the screen. Fit your scene inside the cube. Cube dimensions and position can be controled by simple gestures:
+
 1. Pinch for scaling
 2. One finger pan to move the cube in XY plane
 3. Two fingers pan to move the cube along Z axis
