@@ -32,8 +32,17 @@ Mesh control:
 3. Two fingers pan for translation in the screen plane
 
 Demo mode:
+
 The demo mode uses rpedefined images and possibly segmentations. To enter demo mode touch the "Demo" button and choose between "Original images" for colored images and "Silhouettes" for using segmentation supplied beforehand. If you choose using demo mode you can skip SLAM process and taking snapshots and you get directly to the mesh screen at which you continue the same way as described above. 
 Images, segmentations and projection matrices for the demo provided by Ben Tordoff on http://www.mathworks.com/matlabcentral/fileexchange/26160-carving-a-dinosaur/content/SpaceCarving/+spacecarving/carve.m
+
+Resolution Specifications:
+
+As configuration screen yet to be provided you can control the intial size of the voxel volume by redfining
+
+#define SCULPTURE_SIZE 128
+
+to any othe size you want. That definitioin can be found in PointCloudSample/Sculptor/Sculpture.h
 
 Have fun! :)
 
