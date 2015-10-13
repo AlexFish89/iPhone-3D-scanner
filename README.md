@@ -14,14 +14,17 @@ After application loads follow the on screen instruction i.e. touch the screen t
 1. Pinch for scaling
 2. One finger pan to move the cube in XY plane
 3. Two fingers pan to move the cube along Z axis
+
 Once you've fit your object inside the cube you can take images using the "Capture" button (as many as you want).
 BTW, you can reverse the actions i.e. take the images first, the last cube position is the one that counts.
 As you are done with the image head to the Mesh screen by touching the "Mesh" button. In the Mesh screen you can:
+
 1. View your snapshots by clicking them on the left sidebar
 2. Check segmentation for the currently visible image with "Seg" button
 3. Sculpting the voxel volume using the currently visible image with "Sculpt" button
 4. Sculpting the voxel volume using all the images with "Sculpt All" button
 5. Displaying the mesh representing the surface of the current volume
+
 Mesh control:
 1. Pinch for scaling
 2. One finger pan for rotation
