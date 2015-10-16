@@ -40,6 +40,10 @@ Resolution Specifications:
 
 As configuration screen yet to be provided you can control the intial size of the voxel volume by redfining #define SCULPTURE_SIZE 128 to any othe size you want. That definitioin can be found in PointCloudSample/Sculptor/Sculpture.h
 
+Youtube tutorial:
+
+https://youtu.be/zy40dpsmprg
+
 Have fun! :)
 
 Alex Fish
